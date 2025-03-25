@@ -1,0 +1,147 @@
+/* CompanyReview.css */
+.company-review {
+  max-width: 1064px;
+  margin: 75px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.company-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.company-info h1 {
+  font-size: 24px;
+  color: #333333;
+  margin: 0;
+}
+
+.company-info p {
+  font-size: 14px;
+  color: #666666;
+  margin: 5px 0; /* Adjusted margin */
+}
+
+.rating-reviews {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rating {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.stars {
+  font-size: 20px;
+  color: #FFD700;
+}
+
+.reviews {
+  font-size: 14px;
+  color: #666666;
+}
+
+.add-review-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.founded {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 10px; /* Added margin for gap */
+}
+
+.add-review-button {
+  padding: 10px 20px;
+  background: linear-gradient(136.93deg, #D100F3 9.08%, #002BC5 108.36%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.company-review h2 {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.review {
+  margin-bottom: 20px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-info {
+  flex: 1;
+}
+
+.review h3 {
+  font-size: 16px;
+  color: #333333;
+  margin: 0;
+}
+
+.review-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -13px;
+}
+
+.review .date {
+  font-size: 14px;
+  color: #666666;
+   /* Added margin for gap */
+}
+
+.user-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.review .review-text {
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5;
+  margin-top: -15px;
+  margin-left: 60px;
+}

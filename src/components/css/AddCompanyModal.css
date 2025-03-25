@@ -1,0 +1,183 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden; /* This will hide the parts of circles outside the modal */
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 27px;
+  margin-left:100px;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.close-icon {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.2s;
+}
+
+.close-icon:hover {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative; /* Ensure form stays above circles */
+  z-index: 1; /* Ensure form stays above circles */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #002BC5;
+}
+
+.location-input {
+  position: relative;
+}
+
+.location-marker {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+}
+
+.error {
+  border-color: #e74c3c !important;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.image-upload {
+  display: flex;
+  justify-content: center;
+}
+
+.upload-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: #f9f9f9;
+  color: #777;
+  gap: 10px;
+}
+
+.upload-button:hover {
+  border-color: #002BC5;
+  color: #002BC5;
+  background-color: #f0f4ff;
+}
+
+.uploaded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.form-actions button {
+  background: linear-gradient(136.93deg, #D100F3 9.08%, #002BC5 108.36%);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.form-actions button:hover {
+  opacity: 0.9;
+}
+
+.design-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(136.93deg, #D100F3 9.08%, #002BC5 108.36%);
+opacity: 0.5;
+  
+}
+
+.bottom-circle {
+  width: 116px;
+  height: 116px;
+  top: -55px;
+  left: 28px;
+}
+
+.upper-circle {
+  width: 116px;
+  height: 116px;
+  top: -4px;
+  left: -34px;
+}

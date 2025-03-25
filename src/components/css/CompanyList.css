@@ -1,0 +1,15 @@
+
+/* Company List Styles */
+.company-list {
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    width: 1064px;
+    margin: 80px  auto;
+  }
+  
+  .company-list h2 {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    color: #333333;
+  }

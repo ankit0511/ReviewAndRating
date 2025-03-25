@@ -1,0 +1,85 @@
+/* CompanyCard.css */
+.company-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.company-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.company-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 15px;
+  object-fit: cover; /* Ensure the image fits well */
+}
+
+.company-details {
+  flex: 1;
+}
+
+.company-details h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333333;
+}
+
+.company-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666666;
+}
+
+.rating-reviews {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.rating {
+  font-size: 14px;
+  color: #000; /* Black color for rating number */
+  font-weight: 600;
+}
+
+.stars {
+  font-size: 14px;
+  color: #FFD700; /* Yellow color for stars */
+}
+
+.reviews {
+  font-size: 14px;
+  color: #666666; /* Gray color for reviews */
+}
+
+.company-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.founded {
+  font-size: 14px;
+  color: #666666;
+}
+
+.detail-button {
+  padding: 8px 16px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
